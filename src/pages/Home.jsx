@@ -12,8 +12,7 @@ const Home = () => {
             Магазин
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Reiciendis mollitia, provident nihil saepe, minus voluptatibus eos tempora quibusdam, quo ut totam nemo vero hic praesentium laudantium cum aliquid ad dignissimos.
+            Ласкаво просимо до нашого магазину! Тут ви знайдете широкий асортимент товарів, які задовольнять будь-які ваші потреби. Від електроніки до одягу, ми маємо все, що вам потрібно. Пошук реалізовано через dummyjson API, що дозволяє легко знаходити потрібні товари.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -61,7 +60,7 @@ const Home = () => {
               </div>
               <h3 className="text-xl font-semibold mb-2">Фільтрація товарів</h3>
               <p className="text-gray-600">
-                Поки не працює, for some reason🥀
+                Фільтрація товарів за категоріями та ціною
               </p>
             </div>
             
