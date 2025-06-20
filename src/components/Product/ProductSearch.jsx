@@ -73,7 +73,7 @@ const ProductSearch = ({ onSearchResults, onClearSearch }) => {
         {searchQuery && (
           <button
             onClick={handleClear}
-            className="px-4 py-3 bg-gray-500 text-white rounded-lg hover:bg-gray-600 transition-colors flex items-center"
+            className="px-4 py-3 bg-red-400 text-white rounded-lg hover:bg-red-600 transition-colors flex items-center"
           >
             <svg className="h-4 w-4 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />

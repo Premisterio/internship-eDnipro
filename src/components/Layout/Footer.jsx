@@ -4,9 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">
         <div className="border-t border-gray-800 pt-8 text-center">
-          <p className="text-gray-400 text-sm mb-8">
+          <a href="https://github.com/Premisterio">
+            <p className="text-gray-400 text-sm mb-8 hover:text-white transition-colors">
             2025 Грегуль Володимир
-          </p>
+            </p>
+          </a>
         </div>
     </footer>
   );
