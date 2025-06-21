@@ -173,23 +173,23 @@ const ProductDetail = () => {
                 </div>
               </div>
 
-              <div className="flex space-x-4">
+           <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
                 <button
                   disabled={product.stock === 0}
                   onClick={() => alert('Кошик не імплементовано')}
-                  className="hover:cursor-not-allowed flex-1 bg-blue-500 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
+                  className="hover:cursor-not-allowed flex-1 bg-blue-500 text-white py-2 px-3 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base font-semibold hover:bg-blue-600 disabled:bg-gray-300 disabled:cursor-not-allowed transition-colors"
                 >
                   {product.stock > 0 ? 'Додати до кошика' : 'Немає в наявності'}
                 </button>
                 <button
                   onClick={() => alert('Функція редагування відсутня')}
-                  className="hover:cursor-not-allowed bg-yellow-500 text-white py-3 px-6 rounded-lg font-semibold hover:bg-yellow-600 transition-colors"
+                  className="hover:cursor-not-allowed bg-yellow-500 text-white py-2 px-3 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base font-semibold hover:bg-yellow-600 transition-colors"
                 >
                   Редагувати
                 </button>
                 <button
                   onClick={handleDelete}
-                  className="bg-red-500 text-white py-3 px-6 rounded-lg font-semibold hover:bg-red-600 transition-colors"
+                  className="bg-red-500 text-white py-2 px-3 sm:py-3 sm:px-6 rounded-lg text-sm sm:text-base font-semibold hover:bg-red-600 transition-colors"
                 >
                   Видалити
                 </button>
